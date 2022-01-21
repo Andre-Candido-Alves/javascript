@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+h1{
+    font: bold 30px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div.master{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+div.principal{
+    width: 700px;
+    margin: auto;
+}
+div.principal textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    font: 20px arial, sans-serif;
+    height: 150px;
+}
+button{
+    padding: 10px;
+    font: bold 14px arial, helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(80, 80, 80);
+}
+button:active{
+    background-color: rgb(33, 189, 33);
+}
+.btns{
+    margin: auto;
+    width: 105%;
+}
